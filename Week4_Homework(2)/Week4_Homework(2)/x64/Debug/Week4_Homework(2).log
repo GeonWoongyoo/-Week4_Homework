@@ -1,0 +1,5 @@
+﻿  puzzle.cpp
+C:\Users\Gunnung\Desktop\Week4_Homework(2)\Week4_Homework(2)\puzzle.cpp(70,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\Gunnung\Desktop\Week4_Homework(2)\Week4_Homework(2)\puzzle.cpp(70,9): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 16개 필요하지만 0개가 제공되었습니다.
+C:\Users\Gunnung\Desktop\Week4_Homework(2)\Week4_Homework(2)\puzzle.cpp(70,9): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%c'에 필요합니다.
+  Week4_Homework(2).vcxproj -> C:\Users\Gunnung\Desktop\Week4_Homework(2)\x64\Debug\Week4_Homework(2).exe
