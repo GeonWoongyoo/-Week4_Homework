@@ -1,0 +1,5 @@
+﻿  Hangman.cpp
+C:\Users\Gunnung\Desktop\Week6_Homework2.h(34,1): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Gunnung\Desktop\Week6_Homework2.h(44,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Gunnung\Desktop\Week6_Homework1\Week6_Homework1\Hangman.cpp(3,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Week6_Homework1.vcxproj -> C:\Users\Gunnung\Desktop\Week6_Homework1\x64\Debug\Week6_Homework1.exe
