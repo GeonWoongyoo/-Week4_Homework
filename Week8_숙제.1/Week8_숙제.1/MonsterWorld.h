@@ -24,13 +24,13 @@ class MonsterWorld {
 		canvas.clear();
 		for (int y = 0; y < yMax; y++)
 			for (int x = 0; x < xMax; x++)
-				if (Map(x, y) > 0) canvas.draw(x, y, "¡á");
+				if (Map(x, y) > 0) canvas.draw(x, y, "â– ");
 		for (int i = 0; i < nMon; i++)
 			pMon[i]->draw(canvas);
-		canvas.print("[ Monster World (Á¶ÀıµÇ´Â ¼¼»ó) ]");
+		canvas.print("[ Monster World (ì¡°ì ˆë˜ëŠ” ì„¸ìƒ) ]");
 
-		cerr << " ÀüÃ¼ ÀÌµ¿ È½¼ö = " << nMove << endl;
-		cerr << " ³²Àº ¾ÆÀÌÅÛ ¼ö = " << countItems() << endl;
+		cerr << " ì „ì²´ ì´ë™ íšŸìˆ˜ = " << nMove << endl;
+		cerr << " ë‚¨ì€ ì•„ì´í…œ ìˆ˜ = " << countItems() << endl;
 		for (int i = 0; i < nMon; i++)
 			pMon[i]->print();
 	}
@@ -51,7 +51,7 @@ public:
 	}
 	void play(int maxwalk, int wait) {
 		print();
-		cerr << " ¿£ÅÍ¸¦ ´©¸£¼¼¿ä...";
+		cerr << " ì—”í„°ë¥¼ ëˆ„ë¥´ì„¸ìš”...";
 		getchar();
 		for (int i = 0; i < maxwalk; i++) {
 			for (int k = 0; k < nMon; k++)
@@ -63,4 +63,3 @@ public:
 		}
 	}
 };
-#pragma once
